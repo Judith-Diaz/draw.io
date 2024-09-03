@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.8">
+  <diagram name="Página-1" id="EmsrK1wrG8SaG8_XPhN3">
+    <mxGraphModel dx="1149" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-1" value="Libros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-6" value="usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-7" value="prestamo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-10" value="&lt;u&gt;codigo libreo&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-11" value="&lt;u&gt;numeroSocio&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-12" value="&lt;u&gt;codigoLibroX numerousuario&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-14" value="LIBRO CON UN SOLO CODIGO , PERO CON MUCHA CANTIDAD EN STROCK&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="60" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-15" value="CODIGO LIBRO=1&lt;div&gt;STOCK=12&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="565" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-16" value="CODIGO LIBRO =2&lt;div&gt;STOCK= 20&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="530" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.434;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2KdhnRxXL5QQCwG6qjW2-1" target="2KdhnRxXL5QQCwG6qjW2-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-18" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2KdhnRxXL5QQCwG6qjW2-6" target="2KdhnRxXL5QQCwG6qjW2-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-22" value="EDITORIALES" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.148;exitY=-0.079;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2KdhnRxXL5QQCwG6qjW2-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="61.9" y="280" as="sourcePoint" />
+            <mxPoint x="110" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-24" value="&lt;u&gt;ID EDITORIAL&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-25" value="NOMBRE EMPRESA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KdhnRxXL5QQCwG6qjW2-26" value="ID EDITORIAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
