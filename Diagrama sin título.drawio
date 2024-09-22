@@ -586,10 +586,142 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nBSN5Wv5YNyFAAQeY95F" name="Página-3">
-    <mxGraphModel dx="1666" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2626" dy="2043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-1" value="Proveedores" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="-511" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-2" value="articulos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="-513" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-3" value="ventas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-4" value="Entregas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-861" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-5" value="detalle de venta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="-685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-6" value="articulosXprovedoores" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-189" y="-372" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.033;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T-3CPy1JLOX7rXjsRdWu-3" target="T-3CPy1JLOX7rXjsRdWu-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="195" y="-665.5" as="sourcePoint" />
+            <mxPoint x="95" y="-643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.442;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T-3CPy1JLOX7rXjsRdWu-2" target="T-3CPy1JLOX7rXjsRdWu-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="29" y="-517" as="sourcePoint" />
+            <mxPoint x="26" y="-619" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="9" y="-575" />
+              <mxPoint x="11" y="-543" />
+              <mxPoint x="28" y="-554" />
+              <mxPoint x="20" y="-552" />
+              <mxPoint x="49" y="-543" />
+              <mxPoint x="7" y="-533" />
+              <mxPoint x="18" y="-573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-10" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff4ddb&quot;&gt;D.E.R&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-556.5" y="-904.5" width="66" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-11" value="&lt;h1&gt;&lt;font style=&quot;font-size: 17px;&quot; color=&quot;#ff30d6&quot;&gt;Diccionario de datos&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-532" y="-155" width="185" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-12" value="&lt;b&gt;Proveedores&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-727" y="-36" width="115" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;u&gt;codProve_pr&lt;/u&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;div&gt;razonSolcial_pr&lt;div&gt;email_pr&lt;/div&gt;&lt;div&gt;telefono_pr&lt;/div&gt;&lt;div&gt;personaContacto_pr&lt;/div&gt;&lt;div&gt;direccion_pr&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ciudad_pr&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pais_pr&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-719.5" y="-19" width="163" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-14" value="&lt;b&gt;Articulos&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-193.5" y="-24.5" width="87" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-16" value="&lt;div&gt;&lt;u&gt;codigoArticulo_ar&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;nombre_ar&lt;div&gt;descripcion_ar&lt;/div&gt;&lt;div&gt;precioUnitario_ar&lt;/div&gt;&lt;div&gt;stock_ar&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="6.5" width="142" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-17" value="&lt;b&gt;ventas&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="239.5" y="-31" width="69" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-18" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="T-3CPy1JLOX7rXjsRdWu-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-220" y="-476" as="sourcePoint" />
+            <mxPoint x="-115" y="-577" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-158" y="-527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.987;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T-3CPy1JLOX7rXjsRdWu-2" target="T-3CPy1JLOX7rXjsRdWu-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="113" y="-216" as="sourcePoint" />
+            <mxPoint x="213" y="-316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-20" value="&lt;u&gt;numFactura_ve&lt;/u&gt;&lt;div&gt;codProve_ve&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha&lt;/div&gt;&lt;div&gt;total&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="218" y="-9.5" width="129" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-21" value="&lt;b&gt;Entragas&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="396.5" y="-27" width="86" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-22" value="&lt;div&gt;&lt;u&gt;numeroEntrega_ent&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;numFactura_ent&lt;/u&gt;&lt;/div&gt;&lt;div&gt;codProv_ent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;nombre_ent&lt;div&gt;apellido_ent&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;direcconEntrega_ent&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="394" y="-5" width="166" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442" y="-861" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-23" value="formaPago" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="454" y="-846.5" width="96" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-25" value="&lt;b&gt;formaPago&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="-47" width="102" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-26" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nuemeroEntrega_fp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;formaPago_fp&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;num_targeta_fp&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mercadoPAgo_fp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-5" width="159" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-27" value="&lt;b&gt;DetalleVentas&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-10.5" y="-31" width="122" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-28" value="numFactura_detven&lt;div&gt;codigoArticulo_detven&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cantidad_detven&lt;/div&gt;&lt;div&gt;precio_detven&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-17" y="6.5" width="175" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-29" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T-3CPy1JLOX7rXjsRdWu-4" target="T-3CPy1JLOX7rXjsRdWu-24">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="58" y="-671" as="sourcePoint" />
+            <mxPoint x="261" y="-711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-30" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.558;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T-3CPy1JLOX7rXjsRdWu-4" target="T-3CPy1JLOX7rXjsRdWu-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="420" y="-658" as="sourcePoint" />
+            <mxPoint x="520" y="-758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-489" y="248" as="sourcePoint" />
+            <mxPoint x="815" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-32" value="&lt;h1&gt;&lt;font style=&quot;font-size: 17px;&quot; color=&quot;#ff4fc4&quot;&gt;consultas SQL&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-525.5" y="235.5" width="137" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-34" value="&lt;b&gt;ArticulosXproveedores&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-556.5" y="-29.5" width="194" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-35" value="codProv_aXp&lt;div&gt;codigoArticulo_aXp&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-546" y="17" width="156" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3CPy1JLOX7rXjsRdWu-37" value="1. Informe todos los modelos registrados de una determinada marca.&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;SELECT&lt;/b&gt;&amp;nbsp; MODELOS.Modelo_MO &lt;b&gt;FROM&lt;/b&gt;&amp;nbsp; MODELOS &lt;b&gt;WHERE&lt;/b&gt;&amp;nbsp; MODELOS.Cod_Marca_MO &lt;b&gt;=&lt;/b&gt; 01&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;2. Informe los nombres de los talleres oficiales cuyas marcas comiencen con cualquier&amp;nbsp;&lt;/div&gt;&lt;div&gt;carácter individual, posteriormente una vocal, seguida de una consonante, y cualquier&amp;nbsp;&lt;/div&gt;&lt;div&gt;cadena de caracteres.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;SELECT&lt;/b&gt;&amp;nbsp;MARCAS.Taller_Oficial_MA&amp;nbsp;&amp;nbsp;&lt;b&gt;FROM&lt;/b&gt;&amp;nbsp; MARCAS&amp;nbsp;&lt;b&gt;WHERE&lt;/b&gt;&amp;nbsp; MARCAS.&lt;span style=&quot;background-color: initial;&quot;&gt;Marca_MA&amp;nbsp; &#39;&lt;b&gt;[ A-Z][AEIOU][^AEIOU]%&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;&quot;&gt;3. Informe el nombre de las marcas (Marca_MA) que posean móviles dados de baja.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;SELECT&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MARCAS.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Marca_MA&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;FROM &lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MARCAS &lt;b&gt;INNER JOIN&amp;nbsp;&amp;nbsp;&lt;/b&gt;MOVILES&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ON&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MARCAS.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cod_Marca_MA&amp;nbsp;&lt;b&gt;=&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MOVILES&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cod_Marca_MV&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;WHERE&amp;nbsp; &lt;/b&gt;MOVILES.&lt;span style=&quot;background-color: initial;&quot;&gt;Baja_MV &lt;b&gt;=&lt;/b&gt; &#39;FALSE&#39;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;4. Informe la cantidad de móviles, por marca y modelo (agrupados por marca y modelo).&lt;/div&gt;&lt;div&gt;El resultado de la consulta debe ser: MARCA, MODELO, CANTIDAD&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SELECT &lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&amp;nbsp;COUNT (*) AS&lt;/b&gt;&amp;nbsp;(CANTIDAD), MARCA.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Marca_MA , MODELO.Modelo_MO &lt;b&gt;FROM &lt;/b&gt;MARCAS INNER JOIN MODELOS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ON &lt;/b&gt;MARCAS.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cod_Marca_MA=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MODELOS.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Cod_Marca_MO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;INNER JOIN&lt;/b&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MOVILES&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ON&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MOVILES.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cod_Marca_MV=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MODELOS.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Cod_Marca_MO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;GROUP BY&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;MARCA.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Marca_MA , MODELO.Modelo_MO&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-934" y="334" width="917" height="530" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
